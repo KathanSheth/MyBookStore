@@ -4,8 +4,9 @@ import grpc
 from flask import Flask, render_template
 from os.path import abspath, dirname
 sys.path.insert(0, dirname(dirname(dirname(abspath(__file__)))))
-from src.recommendations.recommendations_pb2 import BookCategory, RecommendationRequest
-from src.recommendations.recommendations_pb2_grpc import RecommendationsStub
+sys.path.append(".")
+from recommendations_pb2 import BookCategory, RecommendationRequest
+from recommendations_pb2_grpc import RecommendationsStub
 
 app = Flask(__name__)
 
