@@ -1,4 +1,4 @@
-FROM python
+FROM python:3.10.7-alpine as base_image
 RUN mkdir /service
 COPY protos/ /service/protos
 COPY recommendations/ /service/recommendations
