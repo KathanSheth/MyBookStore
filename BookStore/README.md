@@ -2,7 +2,7 @@
 
 ## Microservices implementation in Python
 
-### This project has two microservices.
+### This project has two microservices
 1. Marketplace - minimal web app that displays a list of books to the user.
 2. Recommendations - provides a list of books in which the user may be interested.
 
@@ -40,10 +40,9 @@
 
 ## Important links
 
-- (https://github.com/kubernetes-sigs/metrics-server)
-- (https://github.com/kubernetes/dashboard)
-- (https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/)
-- (https://realpython.com/python-microservices-grpc/#production-ready-python-microservices)
-- 
+- <https://github.com/kubernetes-sigs/metrics-server>
+- <https://github.com/kubernetes/dashboard>
+- <https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/>
+- <https://realpython.com/python-microservices-grpc/#production-ready-python-microservices>
 
 
