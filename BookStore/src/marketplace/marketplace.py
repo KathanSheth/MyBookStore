@@ -1,6 +1,8 @@
 import os
+
 import grpc
 from flask import Flask, render_template
+
 from recommendations_pb2 import BookCategory, RecommendationRequest
 from recommendations_pb2_grpc import RecommendationsStub
 
@@ -16,4 +18,4 @@ recommendations_client = RecommendationsStub(recommendations_channel)
 def render_homepage():
     rec_request = RecommendationRequest(user_id=1, category=BookCategory.MYSTERY, max_results=3)
     rec_response = recommendations_client.Recommend(rec_request)
-    return render_template("homepage.html", recommendations=rec_response.recommendations,)
+    return render_template("homepage.html", recommendations=rec_response.recommendations, )
