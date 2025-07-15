@@ -10,7 +10,7 @@
 
 ## Deployment
 - There are two microservices `marketplace` and `recommendations`
-- Currently,  both are hosted in docker-hub `kathansheth/marketplace:latest` and `kathansheth/recommendations:latest` respectively.
+- Currently,  both of them are hosted in docker-hub `kathansheth/marketplace:latest` and `kathansheth/recommendations:latest` respectively.
 - Follow the instructions to deploy it on Docker Desktop with local kubernetes cluster.
 
 ## Instructions to run services
